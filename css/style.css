@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Domine', serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 30px;
+}
