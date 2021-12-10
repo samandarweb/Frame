@@ -20,3 +20,79 @@ body{
     margin: 0 auto;
     padding: 0 30px;
 }
+/* header  */
+.header-section{
+    padding-top: 21px;
+    padding-bottom: 25px;
+    background: #163A24;
+}
+.header-section-conatiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo:hover{
+   opacity: 0.8;
+}
+.site-logo:active{
+    opacity: 0.6;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.nav-log {
+    color: #FBFAF7;
+    margin-right: 24px;
+    line-height: 22px;
+    text-align: right;
+    text-decoration: none;
+}
+.nav-number {
+    color: #FBFAF7;
+    line-height: 22px;
+    margin-right: 24px;
+}
+.nav-button {
+    background: #198C36;
+    border-radius: 160px;
+    padding: 15px 25px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FBFAF7;
+}
+/* main */
+/* repo section */
+
+.repo-section {
+    background: #163A24;
+
+}
+.repo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.repo-content {
+    margin-right: 22px;
+    color: #FBFAF7;
+    
+}
+.repo-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 18px;
+}
+.repo-discription {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.repo-image {
+    width: 738px;
+    height: 580px;
+    align-items: flex-end;
+    margin-bottom: -12px;
+}
