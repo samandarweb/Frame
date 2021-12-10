@@ -80,6 +80,8 @@ body{
     
 }
 .repo-title {
+    width: 450px;
+    margin: 0;
     font-weight: 600;
     font-size: 48px;
     line-height: 65px;
@@ -95,4 +97,108 @@ body{
     height: 580px;
     align-items: flex-end;
     margin-bottom: -12px;
+}
+/* humans section */
+.humans{
+    padding-top:130px ;
+    padding-bottom: 121px;
+    background: #E5E5E5;
+}
+.humans-section-conatiner {
+    padding: 0 30px;
+
+}
+
+.human-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.human-item {
+    display: flex;
+    align-items: center;
+}
+.human-item img{
+    width: 492px;
+    height: 510px;
+}
+.human-item__text {
+    margin-left: 99px;
+}
+.human-item-title {
+    width: 375px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height:  54px;
+    color: #163A24;
+
+}
+.human-item__discripcion {
+    width: 374px;
+    color: #163A24;
+    font-size: 18px;
+    line-height: 27px;
+}
+.human-item__content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.human-title__content{
+    width: 450px;
+}
+.humans-partners {
+    margin-top: 115px;
+    text-align: center;
+
+}
+.human-partner__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 54px;
+    color: #163A24;
+}
+.human-parnter__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.human-partner___logo-image:not(:last-child){
+    margin-right: 87px;
+
+}
+/* production section */
+.production-section {
+    background: #163A24;
+    padding: 66px 139px;
+}
+.production-section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.production-title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    color: #FBFAF7;
+    margin-bottom: 68px;
+}
+.porduction-items {
+    display: flex;
+    align-items: center;
+}
+.production-item:not(:last-child) {
+    margin-right: 120px;
+}
+.production-img {
+    width: 117px;
+    height: 145px;
+    margin-bottom: 28px;
+}
+.production-discription {
+   font-size: 18px;
+   line-height: 27px;
+   color: #FBFAF7;
+   text-align: center;
 }
