@@ -52,7 +52,7 @@ body {
   line-height: 22px;
   margin-right: 24px;
 }
-.nav-button {
+.main-button {
   background: #198c36;
   border-radius: 160px;
   padding: 15px 25px;
@@ -281,7 +281,6 @@ body {
 .development-cards {
   display: flex;
   align-items: center;
-  
 }
 .development-card__item {
   width: 353px;
@@ -289,34 +288,91 @@ body {
   box-shadow: 5px 5px 20px #e9e4d5;
   border-radius: 15px;
   padding: 50px 40px 66px 40px;
-  
 }
 .development-card__item:not(:last-child) {
   margin-right: 40px;
 }
 .development-card__img {
-  
   margin-bottom: 20px;
 }
 .development-card-title {
-    width: 300px;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 31px;
-    margin: 0;
-    margin-bottom: 23px;
+  width: 300px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 31px;
+  margin: 0;
+  margin-bottom: 23px;
 }
 .development-list {
-    margin: 0;
-    padding: 0;
-    line-height: 21px;
-    color: #163A24;
-    padding-left: 20px;
+  margin: 0;
+  padding: 0;
+  line-height: 21px;
+  color: #163a24;
+  padding-left: 20px;
 }
 
 .development-list__item:not(:last-child) {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
-.development-card__second-item{
-   margin-top: 35px;
+.development-card__second-item {
+  margin-top: 35px;
+}
+/* easy section */
+.easy {
+  background: #f2efe6;
+  padding: 114px 0 124px 0;
+}
+.easy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.easy-title {
+  font-weight: 600;
+  font-size: 47px;
+  line-height: 54px;
+  color: #163a24;
+  margin: 0;
+  margin-bottom: 26px;
+}
+.easy-discripcion {
+  padding: 0;
+  margin: 0;
+  color: #163a24;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+.easy-items {
+  display: flex;
+  align-items: center;
+}
+.easy-item:not(:last-child) {
+  margin-right: 27px;
+  text-align: center;
+}
+.easy-discription {
+  width: 260px;
+  font-size: 18px;
+  line-height: 27px;
+  color: #163a24;
+  text-align: center;
+}
+.easy-title {
+  color: #163a24;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 31px;
+}
+.easy-img {
+  margin-right: 35px;
+}
+.easy-item-img {
+    width: 285px;
+    height: 179px;
+    background: url('../images/easy-image\(3\).svg');
+    background-size: cover;
+    padding: 10px;
+    text-align: center;
+
 }
